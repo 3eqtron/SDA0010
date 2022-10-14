@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/drawable/bg_border.xml" value="0.1415" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/drawable/switchoff.xml" value="0.1415" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/drawable/switchon.xml" value="0.1415" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/drawable/switchoutline.xml" value="0.1415" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_add_device.xml" value="0.13" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_add_profile.xml" value="0.12" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_addchild.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_bienvenu.xml" value="0.14" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_childdashboard.xml" value="0.14" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_confirm_profile.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_congrats.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_congratswizzardend.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_sign_in_email.xml" value="0.13" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_signup.xml" value="0.14" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/activity_space_chose.xml" value="0.12828947368421054" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/application_list_frag.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/child_dashboard2_activity.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/child_dashboard3_frag.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/layout/fragment_child_dashboard.xml" value="0.1287568306010929" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/menu/main_menu.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SDA0010/app/src/main/res/menu/navbottom_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

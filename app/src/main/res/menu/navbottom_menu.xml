@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="DASHBOARD"
+        android:icon="@drawable/ic_baseline_inbox_24"/>
+    <item android:title="PHONE USAGE"
+        android:icon="@drawable/ic_baseline_inbox_24"/>
+    <item android:title="SOCIAL MEDIA"
+        android:icon="@drawable/ic_baseline_inbox_24"/>
+    <item android:title="ALERTS"
+        android:icon="@drawable/ic_baseline_inbox_24"/>
+</menu>

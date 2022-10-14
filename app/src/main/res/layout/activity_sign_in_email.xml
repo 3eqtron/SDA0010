@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/principal"
+    android:layout_height="match_parent"
+    tools:context=".SignInEmail">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/microsoftteams"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="240dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/welcome"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.200"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/btnsignin"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+
+            android:gravity="left|center_vertical"
+            android:paddingLeft="5dp"
+            android:text="Sign in to continue"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintHorizontal_bias="0.200" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inputusername"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/bg_border"
+        android:hint="Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <EditText
+        android:id="@+id/inputpassword"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_border"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/inputusername"
+        app:layout_constraintStart_toStartOf="@+id/inputusername"
+        app:layout_constraintTop_toBottomOf="@+id/inputusername" />
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="111dp"
+        android:textAllCaps="false"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="Sing in"
+        android:textColor="@color/principal"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/inputpassword"
+        app:layout_constraintStart_toStartOf="@+id/inputpassword"
+        app:layout_constraintTop_toBottomOf="@+id/inputpassword" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Forgot password?"
+        app:layout_constraintEnd_toEndOf="@+id/btnsignin"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/btnsignin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/principal"
+    android:layout_height="match_parent"
+    tools:context=".CongratsActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/cong"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/congrats"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tickvector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="326sp"
+        android:layout_height="228dp"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/congratvector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="213dp"
+        android:layout_height="182dp"
+        android:layout_marginRight="50dp"
+        android:src="@drawable/chatcongrat"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/white"
+        android:text="Add another child"
+        android:textColor="@color/principal"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <Button
+        android:layout_width="141dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="Continue"
+        android:textColor="@color/principal"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/button6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

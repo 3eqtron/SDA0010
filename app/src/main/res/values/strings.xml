@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SDA0010</string>
+    <string name="welcome">Welcome to 4In Shield!</string>
+    <string name="spacechose">Who is going to use this device?</string>
+    <string name="bienvenu">Welcom to 4IN Shield</string>
+    <string name="head">Please add your child\'s devices</string>
+    <string name="textt">The information from your child\'s device will help us to access their mental health,duration of sleep,places visited,used applications etc.It also gives you the ability to block or allow installed applications.</string>
+    <string name="third">Please follow the following steps :</string>
+    <string name="one">1.Bring your child’s mobile phone</string>
+    <string name="two">2.Scan this QR code with your child\’s device camera</string>
+    <string name="three">3.You will be redirected to the 4IN shield application download page</string>
+    <string name="four">4.Once the application is installed,</string>
+    <string name="cn"> click Next</string>
+    <string name="addprofile1">Please enter your child \'s social media account information</string>
+    <string name="addprofile2">This information will help us to protect your child from online abusive content and cyberharassement</string>
+    <string name="confirmprofile">Your child\'s profile information has been successfully added</string>
+    <string name="childadd">Please enter the required information to complete your chil\'s profile</string>
+    <string name="cong">congratulations</string>
+    <string name="congrats">You have successfully completed your child profile</string>
+    <string name="wizard">Thank you for your confidence in us</string>
+  <string name="txcomment">Mama always said life was like a box of chocolats.You never know what... </string>
+</resources>

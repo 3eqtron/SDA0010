@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/principal"
+    tools:context=".ConfirmProfileActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="@string/confirmprofile"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/imageView7"
+        android:background="@drawable/bg_border"
+        android:layout_width="103dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" >
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="84dp"
+            android:src="@drawable/avatar"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imageView8"
+        android:background="@drawable/bg_border"
+        android:layout_width="103dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" >
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="84dp"
+            android:src="@drawable/boy"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="103dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_border"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8">
+
+        <ImageView
+            android:layout_width="83dp"
+            android:src="@drawable/avatargirl2"
+            android:layout_height="84dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="103dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_border"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="84dp"
+            android:src="@drawable/avatargirl2"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="83dp"
+        android:src="@drawable/instagram"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/imageView8" />
+
+    <ImageView
+        android:src="@drawable/twitter"
+        android:id="@+id/imageView10"
+        android:layout_width="83dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="83dp"
+        android:layout_height="84dp"
+        android:src="@drawable/facebook"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout7"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/white"
+        android:text="Add new profile"
+        android:textColor="@color/principal"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayout6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout7" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:text="Continue"
+        android:textColor="@color/principal"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/relativeLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout6" />
+
+    <Button
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/white"
+        android:textStyle="bold"
+        android:textColor="@color/principal"
+        android:textSize="10sp"
+        android:text="Modify profile information"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
